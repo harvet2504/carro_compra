@@ -19,7 +19,7 @@ public class DetalleVentas {
     private Long idDetalleVenta;
 
     @ManyToOne(optional = false)
-    @JsonIgnoreProperties("venta")
+    @JsonIgnoreProperties("ventas")
     private Venta venta;
 
     @ManyToOne(optional = false)
